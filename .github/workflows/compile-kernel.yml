@@ -20,7 +20,7 @@ on:
       kernel_version:
         description: "Select kernel version"
         required: false
-        default: "5.15.1_6.1.1"
+        default: "5.9-rc7"
         type: choice
         options:
           - 5.4.1_5.10.1
@@ -29,6 +29,7 @@ on:
           - 5.10.1
           - 5.15.1
           - 6.1.1
+          - 5.9-rc7
       kernel_auto:
         description: "Auto use the latest kernel"
         required: false
